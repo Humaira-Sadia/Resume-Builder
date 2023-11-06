@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/resume-template.css" />
+    <link rel="stylesheet" href="./styles/combine.css" />
+    <link rel="icon" href="./assets/icon.png" />
+    <title>Resume_Builder</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./assets/logo-header.png" height="44px" alt="hero" />
+    </nav>
+    <div class="box w-100">
+      <div id="resume-form w-50">
+        <div class="container-fluid">
+          <div class="container-fluid">
+            <form action="" id="form">
+              <div class="row">
+                <div class="title">
+                  <h1 class="yellow-bg p-1 text-capitalize fs-2">Personal</h1>
+                  <h3 class="fs-5 text-body-secondary text-capitalize">
+                    Provide your personal informations.
+                  </h3>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label> Name :</label> <br />
+                    <input
+                      id="fname"
+                      type="text"
+                      name="name"
+                      onkeyup=""
+                      placeholder="eg. Joe Decker"
+                      autocomplete="off"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">profession:</label> <br />
+                    <input
+                      id="profession"
+                      type="text"
+                      name="first name"
+                      onkeyup=""
+                      placeholder="eg. Joe"
+                      autocomplete="off"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="">email :</label> <br />
+                    <input
+                      id="email"
+                      type="email"
+                      name="email"
+                      onkeyup=""
+                      placeholder="eg. Joe@mail.com"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">phone :</label> <br />
+                    <input
+                      id="phone"
+                      type="text"
+                      name="phone"
+                      onkeyup=""
+                      placeholder="eg. +91 66666666"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">website:</label> <br />
+                    <input
+                      id="website"
+                      type="text"
+                      name="website"
+                      onkeyup=""
+                      autocomplete="off"
+                    />
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="title">
+                  <h1 class="yellow-bg p-1 text-capitalize fs-2">
+                    Experience
+                  </h1>
+                  <h3 class="fs-5 text-body-secondary text-capitalize">
+                    provide your work experiences or internships.
+                  </h3>
+                </div>
+                <div class="work-exp row">
+                  <div class="col">
+                    <label for="">Designation :</label> <br />
+                    <input
+                      id="desig-1"
+                      type="text"
+                      name="desig"
+                      onkeyup=""
+                      placeholder="eg. HOD"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">Comapny Name :</label> <br />
+                    <input
+                      id="comp-1"
+                      type="text"
+                      name="cname"
+                      onkeyup=""
+                      placeholder="eg. xyz "
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">Timeline:</label> <br />
+                    <input
+                      id="tm-1.1"
+                      type="date"
+                      name="timeline"
+                      onkeyup=""
+                      autocomplete="off"
+                    />
+                    <input
+                      id="tm-1.2"
+                      type="date"
+                      name="timeline"
+                      onkeyup=""
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col description d">
+                    <label for="">Description :</label> <br />
+                    <textarea
+                      id="des-exp-1"
+                      name="description"
+                      id="description"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="work-exp row">
+                  <div class="col">
+                    <label for="">Designation :</label> <br />
+                    <input
+                      id="desig-2"
+                      type="text"
+                      name="desig"
+                      onkeyup=""
+                      placeholder="eg. HOD"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">Comapny Name :</label> <br />
+                    <input
+                      id="comp-2"
+                      type="text"
+                      name="cname"
+                      onkeyup=""
+                      placeholder="eg. xyz "
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">Timeline:</label> <br />
+                    <input
+                      id="tm-2.1"
+                      type="date"
+                      name="timeline"
+                      onkeyup=""
+                      autocomplete="off"
+                    />
+                    <input
+                      id="tm-2.2"
+                      type="date"
+                      name="timeline"
+                      onkeyup=""
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="col description d">
+                    <label for="">Description :</label> <br />
+                    <textarea
+                      id="des-exp-2"
+                      name="description"
+                      id="description"
+                      rows="2"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="title">
+                  <h1 class="yellow-bg p-1 text-capitalize fs-2">education</h1>
+                  <h3 class="fs-5 text-body-secondary text-capitalize">
+                    provide your qualification details
+                  </h3>
+
+                  <div class="education-body row">
+                    <div class="col">
+                      <label for="">Degree :</label><br />
+                      <input
+                        id="deg1"
+                        type="text"
+                        placeholder="eg. Btech"
+                        name="degree"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">Institute Name :</label><br />
+                      <input
+                        id="inst1"
+                        type="text"
+                        placeholder="eg. XYZ college"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">Institute Address :</label><br />
+                      <input
+                        id="instAdd1"
+                        type="text"
+                        placeholder="eg. salt lake sector V"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">percentage/CGPA :</label><br />
+                      <input
+                        id="per1"
+                        type="text"
+                        placeholder="eg. XYZ college"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">timeline :</label><br />
+                      <input id="tm-3.1" type="date" />
+                      <input id="tm-3.2" type="date" />
+                    </div>
+                  </div>
+                  <br />
+                  <div class="education-body row">
+                    <div class="col">
+                      <label for="">Degree :</label><br />
+                      <input
+                        id="deg2"
+                        type="text"
+                        placeholder="eg. Btech"
+                        name="degree"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">Institute Name :</label><br />
+                      <input
+                        id="inst2"
+                        type="text"
+                        placeholder="eg. XYZ college"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">Institute Address : </label><br />
+                      <input
+                        id="instAdd2"
+                        type="text"
+                        placeholder="eg. salt lake sector V"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">percentage/CGPA :</label><br />
+                      <input
+                        id="per2"
+                        type="text"
+                        placeholder="eg. XYZ college"
+                        name="iname"
+                        onkeyup=""
+                        autocomplete="off"
+                      />
+                    </div>
+
+                    <div class="col">
+                      <label for="">timeline :</label><br />
+                      <input id="tm-4.1" type="date" />
+                      <input id="tm-4.2" type="date" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="title">
+                  <h1 class="skill yellow-bg p-1 text-capitalize fs-2">
+                    Skills
+                  </h1>
+                  <h3 class="fs-5 text-body-secondary text-capitalize">
+                    provide informations, which will be displayed as tags, eg.
+                    skills, languages, tools etc.
+                  </h3>
+
+                  <div class="skills row">
+                    <div class="col">
+                      <label for="">Skills : </label><br />
+                      <ul>
+                        <input
+                          id="skill"
+                          class="ms-4"
+                          type="text"
+                          placeholder="java, C++, javascript etc."
+                          autocomplete="off"
+                        />
+                        <i class="bi bi-trash fs-3 me-4"></i>
+                      </ul>
+                      <div class="details">
+                        <p><span></span> tags are remaining</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="title">
+                  <h1 class="yellow-bg p-1 text-capitalize fs-2">
+                    Achievements
+                  </h1>
+                  <h3 class="fs-5 text-body-secondary text-capitalize">
+                    provide your achievements.
+                  </h3>
+                </div>
+
+                <div class="col description">
+                 <h4>Title :
+                  <input id="title1"></input><br>
+                 </h2>
+                  <label for="">Description :</label> <br />
+                  <textarea name="description" id="ach1" rows="5"></textarea>
+                </div>
+
+                <div class="col description">
+                  <h4>Title :
+                   <input id="title2"></input><br>
+                  </h2>
+                   <label for="">Description :</label> <br />
+                   <textarea name="description" id="ach2" rows="5"></textarea>
+                 </div>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+
+      <div id="resume-template">
+        <div class="page">
+          <div class="header">
+            <h1 id="naam">Your Name</h1>
+            <p id="z-profession">Senior Product Designer</p>
+          </div>
+          <div class="content">
+            <div id="sidebar">
+              <div id="contact" class="contact-section">
+                <p id="mail">yourmail@gmail.com</p>
+                <p id="phone-no">+91 1234567890</p>
+                <p id="z-website">example.com</p>
+              </div>
+              <div id="tag-section-1" class="tag-block">
+                <h1 id="tag-section-1-heading">
+                  <span class="yellow-ul">Skills</span>
+                </h1>
+                <div class="tags">
+                  <span class="tag-item">Java</span>
+                  <span class="tag-item">Python</span>
+                  <span class="tag-item">Javascript</span>
+                  <span class="tag-item">C++</span>
+                  <span class="tag-item">React.js</span>
+                  <span class="tag-item">MongoDB</span>
+                  <span class="tag-item">Node.js</span>
+                  <span class="tag-item">Rust</span>
+                  <span class="tag-item">HTML3/CSS</span>
+                </div>
+              </div>
+              <div id="tag-section-2" class="tag-block">
+                <h1 id="tag-section-1-heading">
+                  <span class="yellow-ul">Industry Knowledge</span>
+                </h1>
+                <div class="tags-list">
+                  <span class="tag-list-item">Java</span>
+                  <span class="tag-list-item">Python</span>
+                  <span class="tag-list-item">Javascript</span>
+                  <span class="tag-list-item">C++</span>
+                  <span class="tag-list-item">React.js</span>
+                  <span class="tag-list-item">MongoDB</span>
+                  <span class="tag-list-item">Node.js</span>
+                  <span class="tag-list-item">Rust</span>
+                  <span class="tag-list-item">HTML3/CSS</span>
+                </div>
+              </div>
+              <div id="tag-section-3" class="tag-block"></div>
+            </div>
+            <div class="main-column">
+              <div id="experience-list">
+                <h4 class="section-heading">
+                  <span class="yellow-bg">Experience</span>
+                </h4>
+                <div id="experience-1" class="exp-block">
+                  <h1 id="z-desig1">Senior UI/UX Product Designer</h1>
+                  <h2 id="institution-name1">Enterprise Name</h2>
+                  <p id="timeline1">Aug 2018 - Present - 1 year, Paris</p>
+                  <h4 id="zdescription1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h4>
+                </div>
+                <div class="exp-block">
+                  <h1 id="z-desig2">Senior UI/UX Product Designer</h1>
+                  <h2 id="institution-name2">Enterprise Name</h2>
+                  <p id="timeline2">Aug 2018 - Present - 1 year, Paris</p>
+                  <h4 id="zdescription2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores adipisci pariatur quasi voluptate vel placeat modi.
+                    Eum numquam ex aut atque quod ipsa voluptate eaque? Alias
+                    rerum neque explicabo nam.
+                  </h4>
+                </div>
+              </div>
+              <div id="education-list">
+                <h4 class="section-heading">
+                  <span class="yellow-bg">Education</span>
+                </h4>
+
+                <div class="edu-block">
+                  <h2 id="education-1" class="font-weight-bold">
+                    Bachelor of Technology, CSE
+                  </h2>
+
+                  <h1 id="instt1">Netaji Subhash Engineering College</h1>
+                  <h2 id="address1">31/H/12 Ali Road</h2>
+                  <h3 id="percentage1">Percentage : 78%</h3>
+                  <p id="timeline3.1" class="timeline3.1">2021 - Present</p>
+                </div>
+                <div class="edu-block">
+                  <h2 id="education-2" class="font-weight-bold">
+                    Bachelor of Technology, CSE
+                  </h2>
+
+                  <h1 id="instt2">Netaji Subhash Engineering College</h1>
+                  <h2 id="address2">31/H/12 Ali Road</h2>
+                  <h3 id="percentage2">Percentage : 78%</h3>
+                  <p id="timeline4.1" class="timeline4.1">2029 - Present</p>
+                </div>
+              </div>
+
+              <div id="achievement-list">
+                <h4 class="section-heading">
+                  <span class="yellow-bg">Achievements</span>
+                </h4>
+                <div class="achieve-block">
+                  <h2 id="achieve-1">JEE Topper</h2>
+                  <p id="ach-1">Ranked 7000 in IIT JEE Exam</p>
+                </div>
+                <div id="achieve-2" class="achieve-block">
+                  <h2 id="achieve-2">JEE Topper</h2>
+                  <p id="ach-2">Ranked 9000 in IIT JEE Exam</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const ul = document.querySelector("ul"),
+        input = ul.querySelector("input");
+      count = document.querySelector(".details span");
+
+      let tags = [];
+
+      countTag();
+      function addTag(e) {
+        // to add tags in the input field.
+        if (e.key == "Enter") {
+          let tag = e.target.value.replace(/\s+/g, " ");
+          if (tag.length > 1 && !tags.includes(tag)) {
+            if (tags.length < 10) {
+              tag.split(",").forEach((tag) => {
+                tags.push(tag);
+                createTag();
+              });
+            }
+          }
+
+          e.target.value = "";
+        }
+      }
+
+      function createTag() {
+        // create new list (li) for tag
+        ul.querySelectorAll("li").forEach((li) => li.remove());
+        tags
+          .slice()
+          .reverse()
+          .forEach((tag) => {
+            let liTag = `<li>${tag} <i class="bi bi-x" onclick=
+        "remove(this, '${tag}')"></i></li>`;
+            ul.insertAdjacentHTML("afterbegin", liTag);
+          });
+        input.focus();
+        countTag();
+      }
+
+      function remove(e, tag) {
+        // remove tag which is selected
+        let index = tags.indexOf(tag);
+        tags = [...tags.slice(0, index), ...tags.slice(index + 1)];
+        e.parentElement.remove();
+        countTag();
+      }
+
+      function countTag() {
+        //no of tags remaining.
+        // input.focus();
+        if (tags.length > 0) input.placeholder = "";
+        if (10 - tags.length >= 0) count.innerText = 10 - tags.length;
+      }
+
+      input.addEventListener("keyup", addTag);
+
+      const removeBtn = document.querySelector(".bi-trash"); // delete the entire (array) tags.
+      removeBtn.addEventListener("click", () => {
+        while (tags.length) {
+          tags.pop();
+          ul.querySelectorAll("li").forEach((li) => li.remove());
+        }
+        countTag();
+      });
+
+      //Reset the data/elements of form...
+      function reset() {
+        document.getElementById("form").reset();
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
