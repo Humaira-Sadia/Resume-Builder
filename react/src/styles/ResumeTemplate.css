@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root{
+    --grey: rgb(149, 149, 149);
+    --black-med: rgb(36, 36, 36);
+    --primary-color: rgb(255, 235, 14);
+}
+
+
+
+.page{
+    max-width: 21cm;
+    min-height: 29.7cm;  
+    border: 1px solid ;
+    padding: 80px 40px 20px 40px;
+    font-size: 62.5%;
+    font-family: 'Quicksand';
+}
+
+.header{
+    display: grid;
+    grid-template: auto/ 70fr 30fr;
+}
+
+
+
+
+.header h1{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 3.0em;
+}
+
+.header p{
+    font-size: 1.8em;
+}
+
+.content{
+    display: grid;
+    grid-template: auto/ 70fr 30fr;
+}
+
+.main-column{
+    padding-right: 30px;
+}
+
+.section-heading{
+    font-weight: 700;
+    text-transform:uppercase;
+    color: var(--black-med);
+    letter-spacing: 2px;
+    margin: 30px 0px 10px 0px ;
+    font-size: 13px;
+    
+}
+
+
+
+.experience-list,
+.education-list{
+    margin-top:40px;
+}
+
+.exp-block,
+.edu-block{
+    margin-bottom: 20px;
+}
+.exp-block h2,
+.edu-block h2{
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.exp-block .institution-name,
+.edu-block .institution-name{
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.exp-block .timeline,
+.edu-block .timeline{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--grey);
+    margin-bottom: 2px;
+}
+
+.exp-block .description,
+.edu-block .description{
+    font-size: 1.5em;
+}
+
+.achieve-block h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.achieve-block p{
+    font-size: 13px;
+    color: var(--grey);
+}
+
+
+
+/* Sidebar Styling*/
+
+.contact-section{
+    margin: 50px 0px 0px 0px;
+}
+.contact-section p{
+    color: var(--grey);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tag-block h1{
+    font-weight: 700;
+    text-transform:uppercase;
+    color: var(--black-med);
+    letter-spacing: 2px;
+    margin: 30px 0px 10px 0px ;
+    font-size: 13px;
+}
+
+.tag-block div{
+    color: #3e3e3e;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.tag-item{
+    display: block;
+    margin: 5px 2px;
+    background-color: #f5f5f5;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.tag-list-item{
+    display: block;
+}
+
+/* Utils */
+
+.yellow-bg{
+    background-color: var(--primary-color);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.yellow-ul {
+    border-bottom: 3px solid var(--primary-color);
+
+}
+

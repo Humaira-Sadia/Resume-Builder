@@ -345,7 +345,7 @@
                   <div class="skills row">
                     <div class="col">
                       <label for="">Skills : </label><br />
-                      <ul>
+                      <ul id="taglist">
                         <input
                           id="skill"
                           class="ms-4"
@@ -430,15 +430,17 @@
                   <span class="yellow-ul">Industry Knowledge</span>
                 </h1>
                 <div class="tags-list">
-                  <span class="tag-list-item">Java</span>
-                  <span class="tag-list-item">Python</span>
-                  <span class="tag-list-item">Javascript</span>
-                  <span class="tag-list-item">C++</span>
-                  <span class="tag-list-item">React.js</span>
-                  <span class="tag-list-item">MongoDB</span>
-                  <span class="tag-list-item">Node.js</span>
-                  <span class="tag-list-item">Rust</span>
-                  <span class="tag-list-item">HTML3/CSS</span>
+                  <div id="tags-preview">
+                    <span class="tag-list-item">Java</span>
+                    <span class="tag-list-item">Python</span>
+                    <span class="tag-list-item">Javascript</span>
+                    <span class="tag-list-item">C++</span>
+                    <span class="tag-list-item">React.js</span>
+                    <span class="tag-list-item">MongoDB</span>
+                    <span class="tag-list-item">Node.js</span>
+                    <span class="tag-list-item">Rust</span>
+                    <span class="tag-list-item">HTML3/CSS</span>
+                  </div>
                 </div>
               </div>
               <div id="tag-section-3" class="tag-block"></div>
@@ -513,7 +515,7 @@
         </div>
       </div>
     </div>
-    <script>
+    <!-- <script>
       const ul = document.querySelector("ul"),
         input = ul.querySelector("input");
       count = document.querySelector(".details span");
@@ -583,7 +585,8 @@
       function reset() {
         document.getElementById("form").reset();
       }
-    </script>
+    </script> -->
     <script src="script.js"></script>
+    <script src="handleTags.js"></script>
   </body>
 </html>

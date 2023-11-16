@@ -78,6 +78,8 @@ const name = document.getElementById("fname"),
   achievement2 = document.getElementById("ach2"),
   zachievement2 = document.getElementById("ach-2");
 
+  skill = document.getElementById("skill");
+
 updateCV(name, yname);
 updateCV(email, zmail);
 updateCV(profession, zprof);
